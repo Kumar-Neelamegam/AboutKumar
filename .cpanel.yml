@@ -3,6 +3,6 @@ deployment:
   ignore:
     - ".git/"   
   tasks:
-    - export DEPLOYPATH=/home/aboutaitd/public_html 
+    - export DEPLOYPATH=/home/abouaitd/public_html 
     - /bin/cp -R * $DEPLOYPATH
   
